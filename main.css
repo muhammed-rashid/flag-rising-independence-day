@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap');
+*{
+    margin: 0;
+    padding-left: 0;
+    box-sizing: border-box;
+
+}
+html{
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    height: 6000px;
+    
+}
+
+.container-flag{
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+    position: fixed;
+    top: 0;
+    
+}
+
+.gif-container{
+    margin: 0 auto;
+    width: 200px;
+    align-items: center;
+
+
+    position: fixed;
+    height:500px;
+    bottom: -10000px;
+
+    left: 50%;
+    transform: translateX(-50%);
+      
+
+    
+    
+}
+.stemp{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 500px;
+    z-index: 99;
+}
+.flag-container{
+    width: 180px;
+    transform: translateY(900px);
+    position: absolute;
+    left: 50%;
+    
+    
+}
+
+.flag{
+    transform: rotate(-7deg);
+    margin-left: -28px;
+}
+.redfort img{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
+    width:auto;
+    height: 350px;
+    object-fit: cover;
+   
+
+}
+
+.welcome{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: #fafafa;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+}
+
+.center-t{
+    text-align: center;
+    
+}
+
+.center-t h2{
+font-size: 14px;
+letter-spacing: 3px;
+margin-bottom: 10px;
+
+}
+
+.center-t h4{
+    font-size: 44px;
+    font-weight: 200;
+   
+    font-family: 'Style Script', cursive;
+    background: rgb(252,119,0);
+    background: linear-gradient(10deg, rgba(252,119,0,1) 36%, rgba(255,255,255,0.9304096638655462) 30%, rgba(21,136,9,1) 51%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.center-t p{
+    font-size: 13px;
+    color: #7e7e7e;
+    margin-top: 10px;
+}
